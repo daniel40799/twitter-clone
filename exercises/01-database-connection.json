@@ -1,6 +1,6 @@
 {
   "development": {
-    "host": "",
+    "host": "localhost",
     "database": "",
     "port": 0,
     "user": "",
