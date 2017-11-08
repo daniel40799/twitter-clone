@@ -1,16 +1,16 @@
 {
   "development": {
     "host": "localhost",
-    "database": "",
-    "port": 0,
-    "user": "",
-    "password": ""
+    "database": "development",
+    "port": 5432,
+    "user": "postgres",
+    "password": "daniel40799"
   },
   "test": {
-    "host": "",
-    "database": "",
-    "port": 0,
-    "user": "",
-    "password": ""
+    "host": "localhost",
+    "database": "test",
+    "port": 5432,
+    "user": "postgres",
+    "password": "daniel40799"
   }
 }
