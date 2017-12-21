@@ -5,3 +5,4 @@
 --     - email
 --
 -- Write your query below:
+select count(body) from tweets where user_email = '{{email}}';

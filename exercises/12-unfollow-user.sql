@@ -7,3 +7,4 @@
 --     - follower
 --
 -- Write your query below:
+delete from follows where follower = ('{{follower}}');

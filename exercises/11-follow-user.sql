@@ -7,3 +7,4 @@
 --     - follower
 --
 -- Write your query below:
+insert into follows(following, follower) values('{{following}}', '{{follower}}');

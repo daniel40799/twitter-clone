@@ -7,3 +7,7 @@
 --     created_at   (timestamp)     default to current timestamp
 --
 -- Write your query below:
+create table if not exists follows(
+  id serial primary key, following varchar(100) references users(email) on update cascade on delete cascade not null,
+  follower varchar(100) references users (email) on update cascade on delete cascade not null,created_at timestamp default now()
+);
